@@ -45,6 +45,14 @@ ul {
   list-style-type: none;
 }
 
+/* Nav Bar */
+
+/* Hero */
+
+/* Boxes */
+
+
+
 .container {
   max-width: var(--page-container-width);
   margin: 0 auto;
@@ -90,6 +98,7 @@ main {
   background-color: var(--main-bg-color);
   min-height: 400px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -107,8 +116,13 @@ main img {
   max-width: 400px;
 }
 
-main .container {
+main .hero-container {
   display: flex;
+}
+
+.hero-container, .boxes {
+  margin: 2rem;
+  margin-bottom: 0;
 }
 
 .boxes .container {
@@ -123,6 +137,8 @@ main .container {
   margin: var(--box-margin);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   padding: var(--box-padding);
+  background-color: var(--page-bg-color);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .box i {
