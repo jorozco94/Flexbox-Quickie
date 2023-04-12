@@ -114,7 +114,6 @@ main .hero-container {
   display: flex;
 }
 
-
 /* Boxes */
 .hero-container, .boxes {
   margin: 2rem;
